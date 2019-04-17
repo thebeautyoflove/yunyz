@@ -2,20 +2,9 @@
 
 > yunyizhu
 
-## Build Setup
+## 介绍
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+类似脚手架，主要实现路由的缓存，比如从列表页到详情，然后返回，列表页数据无刷新且恢复滚动条位置
+页面转场动画
+系统返回键返回，包含组件级别的控制
